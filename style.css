@@ -1,0 +1,62 @@
+body{
+  background-color: lightblue;
+}
+
+/* Center and enlarge headings */
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 32px;
+  color: darkblue;
+}
+
+h2 {
+  color: slategray;
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+/* Style for paragraph */
+p {
+  font-size: 21px;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* Style the profile image */
+img[alt="Profile photo"] {
+  display: block;
+  margin: 0 auto 24px auto;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #b0c4de;
+}
+
+/* Style the list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+  text-align: center;
+}
+
+ul li {
+  margin-bottom: 13px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #1a237e;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+ul li a:hover {
+  color: #3949ab;
+}
